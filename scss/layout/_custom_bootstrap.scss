@@ -1,0 +1,32 @@
+@media screen and (min-width: 768px) {
+	.container .jumbotron, .container-fluid .jumbotron {
+    	padding-right: 8%;
+    	padding-left: 8%;
+    }
+
+	.container {
+		padding-right: 0;
+		padding-left: 0;
+		margin-right: 8%;
+		margin-left: 8%;
+	}
+
+	.navbar {
+		margin-bottom: 0;
+	}
+}
+
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.thumbnail {
+	&.thumb
+	padding: 0;
+}
