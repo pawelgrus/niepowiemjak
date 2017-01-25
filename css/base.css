@@ -1,2 +1,154 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}@media screen and (min-width: 768px){.container .jumbotron,.container-fluid .jumbotron{padding-right:8%;padding-left:8%}.container{padding-right:0;padding-left:0;margin-right:8%;margin-left:8%}.navbar{margin-bottom:0}}.container-fluid{padding-left:0;padding-right:0}.row{margin-right:0;margin-left:0}.thumbnail{padding:0}html{font-family:'Lato', sans-serif}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+footer {
+  width: 100%;
+  background: #fafafa;
+  border-top: 1px solid #ebebeb; }
+  footer p {
+    padding: 1% 8%; }
+
+@media screen and (min-width: 768px) {
+  .container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 8%;
+    padding-left: 8%; }
+
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 8%;
+    margin-left: 8%; }
+
+  .navbar {
+    margin-bottom: 0; } }
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0; }
+
+.row {
+  margin-right: 0;
+  margin-left: 0; }
+
+.thumbnail {
+  padding: 0; }
+
+.abs-btn-default, .abs-btn-default:hover, .abs-btn-default:focus, .abs-btn-default:active {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  padding: 8px 16px;
+  background-color: #6B7683;
+  color: #FFF;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-weight: bold; }
+  .abs-btn-default:hover {
+    background-color: #000; }
+  .abs-btn-default:focus {
+    border: 1px solid #555e69;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5); }
+  .abs-btn-default:active {
+    background-color: #555e69; }
+
+.abs-btn-primary, .abs-btn-primary:hover, .abs-btn-primary:focus, .abs-btn-primary:active {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  padding: 8px 16px;
+  background-color: #027ebb;
+  color: #FFF;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-weight: bold; }
+  .abs-btn-primary:hover {
+    background-color: #000; }
+  .abs-btn-primary:focus {
+    border: 1px solid #005985;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5); }
+  .abs-btn-primary:active {
+    background-color: #005985; }
+
+.abs-btn-info, .abs-btn-info:hover, .abs-btn-info:focus, .abs-btn-info:active {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  padding: 8px 16px;
+  background-color: #FFF;
+  color: #555e69;
+  border: 1px solid #6B7683;
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-weight: bold; }
+  .abs-btn-info:hover {
+    color: #005985;
+    border: 1px solid #027ebb; }
+  .abs-btn-info:focus {
+    color: #005985;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 3px 0px rgba(2, 126, 187, 0.5); }
+  .abs-btn-info:active {
+    background-color: #badfed;
+    color: #005985;
+    border: 1px solid #027ebb; }
+
+.abs-btn-blank, .abs-btn-blank:hover, .abs-btn-blank:focus, .abs-btn-blank:active {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  padding: 8px 16px;
+  background-color: #FFF;
+  color: #005985;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-weight: bold; }
+  .abs-btn-blank:hover {
+    color: #005985;
+    border: 1px solid #027ebb; }
+  .abs-btn-blank:focus {
+    color: #005985;
+    border: 1px solid #badfed; }
+  .abs-btn-blank:active {
+    background-color: #badfed; }
+
+html {
+  font-family: 'Lato', sans-serif; }
+
+body {
+  padding-bottom: 70px; }
+
 /*# sourceMappingURL=base.css.map */
