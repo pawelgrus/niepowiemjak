@@ -1,0 +1,17 @@
+i {
+	&.fa {
+		color: $font-gray;
+		&:before {
+			font-weight: normal;
+			padding-right: 10px;
+		}
+		+ span {
+			color: $font-gray;
+		font-weight: bold;
+		}
+	}
+}
+
+
+
+		

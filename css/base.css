@@ -41,12 +41,22 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.center-vertical {
+  display: flex;
+  align-items: center; }
+
 footer {
   width: 100%;
   background: #fafafa;
   border-top: 1px solid #ebebeb; }
   footer p {
     padding: 1% 8%; }
+
+.padding-top-20 {
+  padding-top: 20px; }
+
+.padding-right-20 {
+  padding-right: 20px; }
 
 @media screen and (min-width: 768px) {
   .container .jumbotron, .container-fluid .jumbotron {
@@ -72,9 +82,18 @@ footer {
 .thumbnail {
   padding: 0; }
 
+i.fa {
+  color: #666; }
+  i.fa:before {
+    font-weight: normal;
+    padding-right: 10px; }
+  i.fa + span {
+    color: #666;
+    font-weight: bold; }
+
 .abs-btn-default, .abs-btn-default:hover, .abs-btn-default:focus, .abs-btn-default:active {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-  padding: 8px 16px;
+  padding: 4px 14px;
   background-color: #6B7683;
   color: #FFF;
   border: 1px solid transparent;
@@ -91,7 +110,7 @@ footer {
 
 .abs-btn-primary, .abs-btn-primary:hover, .abs-btn-primary:focus, .abs-btn-primary:active {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-  padding: 8px 16px;
+  padding: 4px 14px;
   background-color: #027ebb;
   color: #FFF;
   border: 1px solid transparent;
@@ -108,7 +127,7 @@ footer {
 
 .abs-btn-info, .abs-btn-info:hover, .abs-btn-info:focus, .abs-btn-info:active {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-  padding: 8px 16px;
+  padding: 4px 14px;
   background-color: #FFF;
   color: #555e69;
   border: 1px solid #6B7683;
@@ -129,7 +148,7 @@ footer {
 
 .abs-btn-blank, .abs-btn-blank:hover, .abs-btn-blank:focus, .abs-btn-blank:active {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-  padding: 8px 16px;
+  padding: 4px 14px;
   background-color: #FFF;
   color: #005985;
   border: 1px solid transparent;
