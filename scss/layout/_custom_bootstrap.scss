@@ -49,26 +49,26 @@
 }
 
 .jumbotron {
-	background-color: $solid-black;
 	border-radius: 0;
-	color: #FFF;
+	color: $solid-dark-blue;
 	border-top-left-radius: 0;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
-    min-height: 520px;
-    margin-top: 80px;
+    min-height: 680px;
     margin-bottom: 0;
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(254, 245, 255, 0.87);
 
     h1 {
     	font-weight: 700;
+    	margin-top: 2em;
     }
 
     p {
-    	line-height: 1.5em;
+    	line-height: 1.4em;
     	margin-top: 2em;
-    	font-size: 1.6em;
+    	font-size: 1.8em;
+    	color: $solid-fade-blue;
     }
 }
 
