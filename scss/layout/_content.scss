@@ -11,10 +11,38 @@ i {
 		}
 		+ span {
 			color: $font-gray;
-		font-weight: bold;
+			font-weight: bold;
 		}
 	}
 }
+
+.nav {
+	i {
+		color: #FFF;
+	}
+}
+
+
+
+
+.container-box {
+	display: flex;
+}
+
+.elephant {
+	flex-basis: 60%;
+	// flex-grow: 3;
+	color: red;
+	outline: 1px solid red;
+}
+
+.fox {
+	flex-basis: 10%;
+	// flex-grow: 1;
+	color: green;
+	outline: 1px solid green;
+}
+
 
 
 

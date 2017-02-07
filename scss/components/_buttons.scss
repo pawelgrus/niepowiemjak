@@ -120,10 +120,11 @@
 	box-sizing: border-box;
 	border-radius: 2px;
 	font-weight: 700;
+	text-transform: uppercase;
 
 	&:hover {
 		@extend .fluence-btn-default;
-		@include gradient-primary ($solid-blue, $solid-dark-blue);
+		@include gradient-primary ($solid-dark-blue, $solid-dark-blue);
 	}
 
 	&:focus {
