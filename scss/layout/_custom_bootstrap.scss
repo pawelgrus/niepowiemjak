@@ -22,6 +22,7 @@
 
 .navbar-inverse {
     background-color: $solid-blue;
+    @include gradient-primary ($solid-blue, $solid-light-blue);
     border: none;
 
     .navbar-brand {
@@ -60,12 +61,12 @@
 
     h1 {
     	font-weight: 700;
-    	margin-top: 2em;
+    	margin-top: 1.8em;
     }
 
     p {
     	line-height: 1.4em;
-    	margin-top: 2em;
+    	margin-top: 1.4em;
     	font-size: 1.8em;
     	color: $solid-fade-blue;
     }
@@ -83,6 +84,14 @@
 
 .thumbnail {
     border-radius: 2px;
+}
+
+.btn {
+	padding: 0.5em 1.5em;
+}
+
+.btn-lg {
+	padding: 1em 3em;
 }
 
 // @media (min-width: 1200px) {
