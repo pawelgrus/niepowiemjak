@@ -211,6 +211,34 @@ footer {
 .btn-lg {
   padding: 1em 3em; }
 
+@media screen and (min-width: 2560px), tv and (min-width: 2560px) {
+  nav li {
+    font-size: 1.3em;
+    padding: 0.5em; }
+  nav i.fa:before {
+    padding-right: 20px; }
+
+  .navbar-inverse .navbar-brand {
+    font-size: 1.7em;
+    padding: 0.5em 2em 0.5em 0.5em; }
+
+  .container-fluid .jumbotron {
+    padding-left: 20%;
+    padding-right: 20%; }
+
+  .btn {
+    font-size: 1.2em; }
+
+  .btn-lg {
+    font-size: 0.9em; }
+
+  .container {
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%; }
+
+  .thumbnail .caption {
+    font-size: 1.4em; } }
 i.fa {
   color: #666; }
   i.fa:before {
